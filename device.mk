@@ -26,3 +26,9 @@ PRODUCT_PACKAGES += \
 # Filesystem
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/Android.mk:$(TARGET_COPY_OUT_RAMDISK)/fstab.default 
+
+
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0

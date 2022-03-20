@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/ares/device.mk)
 
-# Inherit common AOSP configurations
-$(call inherit-product, vendor/aosp/config/common.mk)
+# Inherit common ArrowOS configurations
+$(call inherit-product, vendor/arrow/config/common.mk)
 
-PRODUCT_NAME := aosp_ares
+PRODUCT_NAME := arrow_ares
 PRODUCT_DEVICE := ares
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := Poco F3 GT

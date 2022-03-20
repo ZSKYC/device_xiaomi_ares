@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ares.mk
+    $(LOCAL_DIR)/arrow_ares.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_ares-eng \
-    aosp_ares-userdebug \
-    aosp_ares-user 
+    arrow_ares-eng \
+    arrow_ares-userdebug \
+    arrow_ares-user 
